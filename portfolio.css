@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+body {
+	background:#FFF;
+}
+
+	header {
+		background:#ecf0f1;
+		width:100%;
+		padding:20px;
+	 
+	}
+		header .logo img {
+			width:50px;
+			vertical-align: top;
+		}
+
+	header nav {
+		width:30%;
+	}
+
+		header nav a {
+			color:#222222;
+			text-align: center;
+			text-decoration: none;
+			font-size: 70%;
+			padding:10px;
+		}
+		header nav a:hover {
+			text-decoration-color:#353535;
+			border-radius: 5px;
+		}
+
+footer {
+	background:#222222;
+	width: 100%;
+	padding:20px;
+}
+
+footer .social {
+	background:#e67e22;
+}
+ 
+footer .social a {
+	color:#fff;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+
+
+
