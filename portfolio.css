@@ -1,55 +1,144 @@
-.container {
-	display: flex;
-	flex-flow: row wrap;
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-	background:#FFF;
+	background: #f2f2f2;
+
+	
 }
 
-	header {
-		background:#ecf0f1;
-		width:100%;
-		padding:20px;
-	 
+h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+h4, h5, p, ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+header {
+	color: #545454;
+}
+
+header a {
+	color: #545454;
+	text-decoration: none;
+}
+
+.logo-menu {
+	background: #ECECEC;
+}
+
+.logo-menu h2 {
+	font-size: 30px;
+}
+
+.logo-menu .menu a {
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/*main*/
+.profile {
+	color: #545454;
+	margin-top: 10px;
+	padding: 20px;
+
+}
+.box1 {
+	margin-top: 20px;
+
+}
+
+.box1 img {
+	width: 100%;
+	border-radius: 50%;
+	margin:0 auto;
+}
+
+.box2 {
+	margin-top: 20px;
+
+}
+	.box2 h2 {
+		font-size: 50px;
+
 	}
-		header .logo img {
-			width:50px;
-			vertical-align: top;
+
+	.box2 h4 {
+		font-size: 30px;
+
+	}
+	.box2 p {
+		text-align: justify;
+		font-weight: 300;
+		line-height: 30px;
 		}
 
-	header nav {
-		width:30%;
+
+.habilities {
+	color: #545454;
+	padding: 20px;
+}
+
+.box3 {
+	margin-top: 30px;
+}
+	.box3 p {
+		text-align: justify;
+		}
+
+.box4 {
+	margin-top: 30px;
+}
+	.box4 ul {
+		margin-left: 20px;
+		line-height: 30px;
 	}
 
-		header nav a {
-			color:#222222;
-			text-align: center;
-			text-decoration: none;
-			font-size: 70%;
-			padding:10px;
-		}
-		header nav a:hover {
-			text-decoration-color:#353535;
-			border-radius: 5px;
-		}
+
 
 footer {
-	background:#222222;
-	width: 100%;
-	padding:20px;
+	color: #545454;
 }
 
-footer .social {
-	background:#e67e22;
-}
- 
-footer .social a {
-	color:#fff;
+footer a {
+	color: #545454;
 	text-decoration: none;
-	padding:10px;
-	display: inline-block;
 }
+
+.menu-social {
+	background: #ECECEC;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.menu-social .menu a {
+	display: inline-block;
+	padding: 20px;
+}
+
+.menu-social .social a {
+	display: inline-block;
+	padding: 20px;
+
+}
+
+
+
+
+
 
 
 
